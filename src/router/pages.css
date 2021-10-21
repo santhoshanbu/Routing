@@ -1,0 +1,33 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+.menu-container{
+    background-color: rgb(115, 115, 248);
+    height: 100%;
+}
+.menu-home,.menu-games,.menu-mobiles,.menu-grosary,.menu-books{
+    padding: 25px 100px;
+}
+.menu-home:hover,.menu-games:hover,.menu-mobiles:hover,.menu-grosary:hover,.menu-books:hover{
+    background-color: rgb(185, 183, 183);
+}
+
+a{
+    text-decoration: none;
+}
+
+.home{
+    height: 100%;
+    width: 100%;
+    background-color: indianred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.phone,.bookimg{
+    height: 591px;
+}
